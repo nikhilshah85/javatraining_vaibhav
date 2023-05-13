@@ -1,0 +1,9 @@
+git clone https://github.com/nikhilshah85/javatraining_vaibhav.git
+git add .
+git commit -m "Day 1" 	 
+git push
+
+ ----------------------------------------
+
+git clone https://github.com/nikhilshah85/javatraining_vaibhav.git
+git pull 
