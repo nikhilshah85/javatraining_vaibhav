@@ -1,0 +1,109 @@
+						Web Revolution (since 2015-17)
+
+	1. When did you use internet first time - 2010 - (world average - 2007)
+	2. What did you use internet for - Study, Surfing etc...
+	3. Where did you use internet those days - Home / Cyber / Office
+	4. How did you use internet - Desktop - Laptop
+	5. Source of internet - Broadband - LAN - Wifi (static speed)
+	
+	Thus developer will develop contents accordingly
+
+		This was same till around 2014-15
+------------------------------------------------------------------------------------------------------------------------
+
+	New users today and also old users 
+	
+	-- How did you use internet - Mobile Phones/Tablets/Devises Desktop - Laptop
+	-- Habbits - lots of new habbits
+	-- source of internet - Mobile Data
+	--  What did you use internet for - Everything
+	-- Where do u use internet - Everywhere
+
+			11:30PM - ola - it was takeing time to show the cab, to enter destination
+
+		2 Things 
+			1. ola lost the revenue - their driverr also lost the revenu
+			2. they lost to competition 
+			3. they lost the customer/user
+			4. right now and since 2018 - loosing the brand name
+
+	-- Thus a shift in userr expericence into a different world is called as WebRevolution
+
+		--Server side development tech  - servelets - EJB etc...
+			has been moved to client side development (client centric)
+		-- Spring Boot, Angular, Node, glass fish etc...
+		-- Data and data format (XML) - WebServices - is the reason for Y2K - 2004-2005
+				this was the best technology and inovation till 2014
+
+				but now, XML is very heavy for network 
+
+		--thus we need a light weight format to exchange the data - JSON 
+
+			XML
+			<temperature>
+				<x:number>35</x:number>
+			</temperature>
+
+			JSON
+			{
+				temperature:35
+			}
+			this is considered 200% ligher, faster that xml - 
+			REST ful api - is a standard way to develop the data excange platform
+
+
+	-- SPA app - (Single paged application) - 
+					Spring Boot for the web app (server related work) (Backend)
+					REST API - (Middleware)
+					Angular allows us to create SPA apps
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

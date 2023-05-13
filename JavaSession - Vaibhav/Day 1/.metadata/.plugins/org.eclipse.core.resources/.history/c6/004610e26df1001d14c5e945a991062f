@@ -1,0 +1,33 @@
+package helloWorld;
+
+public class welcome {
+
+	public static void main(String[] args) {
+		System.out.print("Hello and Welcome to Java World");
+		
+	
+		
+		String guestName = "Nikhil Shah";
+		
+		System.out.print("\n Welcome : " + guestName);
+		
+		int firstNum = 10;
+		int secondNum = 20;
+		
+		int addition = firstNum + secondNum;
+		int subtraction = firstNum - secondNum;
+		int multiplication = firstNum * secondNum;
+		int division = firstNum / secondNum;
+		
+		System.out.print("\n Addition is : " + addition);
+		System.out.print("\n Subtraction is : " + subtraction);
+		System.out.print("\n Multiplication is : " + multiplication);
+		System.out.print("\n Division is : " + division);
+		
+		
+		
+	
+		
+	}
+
+}

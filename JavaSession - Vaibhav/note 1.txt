@@ -1,0 +1,25 @@
+Java - Springboot - Angular - .net - python - php
+
+	this are the frameworks 
+
+	pre-written code all you need to do is use them 
+
+This is oOPS based 
+		you get
+			Packages (Java) - namespances (.net)
+			classes
+			functions
+			methods
+			properties
+			constructors
+			etc... to club all of them and create a app
+
+--------------------------------------
+
+
+	MS oFfice is a framework as well
+
+		Word
+		Excel
+		Powerpoint
+		outlook 

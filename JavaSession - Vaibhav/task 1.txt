@@ -1,0 +1,39 @@
+Accept the below details from user
+
+Name
+Educational Qualification (Graduate / Post Graduate / Master)
+Experience (Years)
+Gender 
+
+--------------------
+once you accept this values, we will give them an offer to join the organization
+This is for 1 year of experience, add 10% basic for 1 more year of experience
+for graduate : Monthly
+	Basic : 5000
+	HRA : 15% of basic
+	Food Allowance : 2000
+	Travel : 2000
+
+for PG 
+	Basic : 8000
+	HRA : 20% of basic
+	Food Allowance : 2500
+	Travel : 2500
+
+for Masters 
+	Basic : 10000
+	HRA : 20% of basic
+	Food Allowance : 3500
+	Travel : 3500
+
+Gross Salary : Basic + HRA + FA + Travel
+Tax : 15% of gross for Male, 10% for female on gross
+Net : Gross - tax
+Display the annual package 
+
+
+
+
+
+
+

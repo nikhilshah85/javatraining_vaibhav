@@ -1,0 +1,17 @@
+package helloWorld;
+
+public class welcome {
+
+	public static void main(String[] args) {
+		System.out.print("Hello and Welcome to Java World");
+		
+		int num1 = 20;
+		int num2 = 30;
+		
+		int addResult = num1 + num2;
+		
+		System.out.print("\n" + addResult);
+
+	}
+
+}

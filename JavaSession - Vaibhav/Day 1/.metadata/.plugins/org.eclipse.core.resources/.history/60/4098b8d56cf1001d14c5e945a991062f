@@ -1,0 +1,18 @@
+package helloWorld;
+
+public class welcome {
+
+	public static void main(String[] args) {
+		System.out.print("Hello and Welcome to Java World");
+		
+	
+		
+		String guestName = "Nikhil Shah";
+		
+		System.out.print("Welcome : " + guestName);
+		
+	
+		
+	}
+
+}
