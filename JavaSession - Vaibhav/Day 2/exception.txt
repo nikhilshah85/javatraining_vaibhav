@@ -1,0 +1,22 @@
+
+
+Error : development time
+Exception : runtime
+
+we should always write code in a snippet
+
+try
+{
+
+	//try to run this code, expecting everyhting will be as planned
+
+}
+catch(exception details)
+{
+	//tell user what went wrong
+	//this will not crash the application, and developer has a option to restart the applcation from where it halted
+}
+finally
+{
+	//netural block, will always executed, even in case there is an exception
+}
