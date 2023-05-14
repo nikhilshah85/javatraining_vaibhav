@@ -1,0 +1,7 @@
+1. Keep running the application till user selects exit
+2. when user select widraw, after widraw is done
+	as user, do you wish you have more transacions ? 1 or 2
+		If user says : 1, show the main menu again
+		if user says : 2, it means its an exit
+
+same for mini statement and for deposit

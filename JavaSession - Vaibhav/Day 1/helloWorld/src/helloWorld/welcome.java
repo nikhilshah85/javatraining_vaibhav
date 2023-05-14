@@ -6,6 +6,7 @@ public class welcome {
 	public static void main(String[] args) {
 		
 		Scanner readInput = new Scanner(System.in);
+		System.out.print("Project test");
 //		
 //		System.out.print("Hello and Welcome to Java World");
 //				
