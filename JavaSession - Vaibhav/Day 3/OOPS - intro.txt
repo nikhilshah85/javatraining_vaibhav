@@ -1,0 +1,212 @@
+				OOPS - object oriented programming structure
+
+
+	1. Object - is a real world entity - which exists
+	2. Object comes from a design - Paper based
+		for a software - it is called as a class
+			class file - blueprint of an object
+	
+		to design the blueprint - we have 4 pillars 
+
+	3. object has - properties - (description)
+			functions - methods 
+			events 
+			enums 
+
+
+	public class Accounts
+	{
+		string firstname = "Nikhil"; //this is a variables and is private in nature
+		
+	
+		public string accountHolderName
+		{
+			get
+			{
+				return firstName;
+			}
+			set
+			{
+				Firstname = value;
+			}
+
+		}
+	}
+
+--------------------------------------------------------------------------
+		
+		Accounts accobj = new Accounts(); //object created from blueprint
+		System.out.print(accObj.accountHolderName); //this will print Nikhil
+
+		accObj.accountHolderName = "Nikhil shah";
+
+
+
+
+
+
+		--------4 principles to design the blue print
+
+		a. Abstraction - consider all the properties and functions only, which are in scope of application 
+			int no_of_childrens; 
+			
+			**remove what is not required;
+
+		b. encapsulation - Create applications/programs very very easy to use
+				but very very difficult to understand how it works
+			
+				we achive this by writing properties and functions
+
+		c. inheritance - reuse as much as possible - code - when you have subtype or type of classes
+
+		d. polymorphism -  this comes only when u have inheritance
+			
+
+			function overloading - this is not polymorphism
+			
+				public int add(int num1, int num2)
+				{
+					return num1 + num2;
+				}
+
+				public int add(int num1, int num2, int num3)
+				{
+					return num1 + num2 + num3;
+				}
+
+				public int add(int num1, int num2, int num3, int num4)
+				{
+					return num1 + num2 + num3 + num4;
+				}
+				public float add(float num1, float num2)
+				{
+					return num1 + num2;
+				}
+
+		
+			function overrideing - this is polymorphism
+				this happens between parent class and child class - signature of the method remains the same
+
+
+			in savings class
+
+				public override int widraw(int w_amount)
+				{
+					if(w_amount > availablebalance)
+					{
+						throw an exception(".....");
+					}
+					else
+					balance = balance - w_amount;
+				}
+
+			in current
+				public override int widraw(int w_amount)
+				{
+					if((w_amount - balance) > 100000)
+					{
+						throw an exception(".....");
+					}
+					else
+					balance = balance - w_amount;
+				}
+			
+			in pf
+
+				public override int widraw(int w_amount)
+				{
+					if((w_amount > (balance * .30)))
+					{
+						throw an exception(".....");
+					}
+					else
+					balance = balance - w_amount;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+			
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
