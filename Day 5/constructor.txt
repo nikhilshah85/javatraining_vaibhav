@@ -1,0 +1,10 @@
+Contructor - 
+
+-- it is a function / method which executes on its own when ever u create a newobject
+	u cannot execute it by yourself after the object is created
+
+-- we use constructor to assign default values to our variables
+
+-- when we do not want object to be created if conditions are not met, we are stopping the createion of that object (we do not want the object to be created)
+
+--constructor has the same name as the name of the class
