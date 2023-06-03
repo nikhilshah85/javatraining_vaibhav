@@ -1,0 +1,39 @@
+			OOPS - 4 Pillars
+
+	a. Abstraction
+	b. Encapsulation
+	c. Inheritance
+	d. Polymprphism
+
+		created objects
+		constructor
+		methods - encapsulation
+		condition - if and loop
+		user interaction
+
+		problem
+		object created last week is gone
+
+		initial balance - 1500
+			deposit(6000)
+			widraw(4000)
+			
+
+---- We need to store the data
+		data can be stored in a file - .txt, .dat and then encrypt it etc..
+			for small applications we start with filesystem (this does not cost)
+
+		when application grows, data grows, users grows, --- shift to database - cost 
+
+		FileSystem - FileIO
+
+		application has to go to OS, ask for stram, connect to HDD, get address - lot of things
+
+		instead, what we have in Java, everything is pre-written for us
+		We have been given a ready made code - set of classes, methods, propertoes which does all this 
+		for you - API
+		
+
+
+
+

@@ -1,0 +1,24 @@
+Task :
+
+a. create a new angular project - intrestCalculation
+b. remove all the default contents from app.component.html
+c. create a new component - simpleintrest
+d. have below variables
+	principal_amount = 500000
+	duration_in_years = 2 
+	rate_of_intrest = 9
+
+	simple_intrest - initial values to be zero
+
+e. create a new function, showSimpleIntrest - this function will calculate simpleintrest
+		formula = ((principal * rate_of_intrest) / 100) * years
+
+f. display the value of P,R,Y,SI by default and when user clicks the button, simple intrest value 	changes
+
+g. display the componet in app.component.html
+
+				13 mins - till 2:30
+	
+		ng new projectName - create new project
+		ng serve - run the project
+		npm g c componentname --skip-import - create a new component

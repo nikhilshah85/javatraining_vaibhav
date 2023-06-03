@@ -1,0 +1,75 @@
+Angular has 4 categories of data
+	primitive data
+	primitive data array
+	json data(object)
+	json object array
+
+--------------------------------------------------------------------
+Pipes (|)
+Is used for formatting the data output
+	uppercase
+	lowercase
+	propercase
+	currency
+	date (show different format for date and time)
+	json 
+	
+===============================================================================================================
+
+			Create a new Project : stockInvestments
+
+		1. create a new component : stockHoldings
+				have an array of JSON objects
+				stockId, stockName, stockCategory, qty, purchasePrice, currentPrice
+				have atleast 10 stocks
+		2. Display the data in a table
+			(green rows for stock in profit and red for stock in loss)
+				purchasePrice > currentPrice : Loss
+				purchasePrice < currentPrice : Profit
+
+		3. columns to display
+			StockId
+			Stockname
+			Category
+			AvailableQty
+			PurchasePrice
+			CurrentPrice
+			
+			Investment Value (purchaseprice * qty)
+			Current Value (CurrentPrice * qty)
+			
+			Status : Profit / Loss / Neutral 
+			
+			Recommendation : if a stock is in profit of 30% or more - Sell
+					 if a stock is in loss of 30% or more - Buy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

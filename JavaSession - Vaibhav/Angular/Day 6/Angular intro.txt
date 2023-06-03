@@ -1,0 +1,55 @@
+
+
+
+					Angular 
+
+		This is a Advance Javascript framework based on EcmaScript implementation 
+				OOPS based javascript
+
+
+			This is a framework from Google
+
+			There was AngularJS - from google only - based on MVC design pattern - suitable for 			small applictions - 1.7 was the last version 
+
+			Further, to make it available for enterprise applications - big size app development
+			they brought 2.0 - based on Component based development
+			2.0 -- 4.0 -- 6.0 -- 7 --8 --10 --11 --12 --13 version --16
+
+
+			Ecma Script - is OOPS based Javascript - and all the browsers supports Javascript
+
+			But ECMA script is difficult to implment - everything is function based 
+				it was very difficult to develop apps 
+
+			Microsoft jumped in - understood ECMA standards - created compilers - modules(packages)
+					keywords, etcc.. and called it as TypeScript (language)
+			google uses typescript to develop components in Angular
+
+
+
+
+
+			This is an opensource - free to devlop and use - available on ALL OS - cross platform
+	--------------
+		softwares needed
+			a. NodeJS (this is a webserver - which will host our Angular, react, ASP.net core apps)
+			b. Angular CLI (command line interface)
+			c. VS Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+			
+
+			

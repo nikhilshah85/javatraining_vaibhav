@@ -1,0 +1,12 @@
+Angular - Components
+		data and functions and logicwd2	qa1rxWA
+	  Pipes
+		inbuilt
+		custom
+	  Services
+		inbuilt services
+			HttpClient - to make REST api calls
+			Guards - security
+			and many others (routing is a also a service)
+		custom services
+	  Routing - to create a SPA application 

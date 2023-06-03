@@ -1,0 +1,15 @@
+Component - it is a combination of 3 files
+		.html,.css and .ts (optinally also spec.ts - unit testing)
+
+Component - it is a plugin - extention like in chrome
+	u plug it anywhere in project and remove it anywhere anytime as per your need
+
+
+	it is a reusable code
+
+	Angular application is all about component
+		in a new project, you get a default - master component called App
+	developer is suppose to create more components, plug it and unplug as and when needed
+
+
+	to create a new component : ng g component calculate
