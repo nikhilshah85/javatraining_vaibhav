@@ -1,0 +1,22 @@
+
+
+
+
+			Services : 
+
+				1. this are backround logic which works in back of your APP(UI)
+				   .ts file (not the UI - html / css)
+				2. Communication between 2 or more component
+					eg. ProductListComponent 
+					    CartComponent
+					    OrdersComponent
+				3. Centralised Logic for all the components
+					MaleProducts (200 products)
+					FeMaleProducts (200 products)
+					KidsProducts (200 products)
+					FestiveProducts (200 products)
+					
+				all this components will need a methods like
+					calculateDiscount
+					applyCopoun
+					CalculateTax

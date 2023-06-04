@@ -1,0 +1,16 @@
+<p>comp1 works!</p>
+
+<div>
+    <h1> I am Component 1 </h1>
+
+    <h2> Message :    {{ _greetSerObj.greetUserMessage() }} </h2>
+    <h2> Developer :  {{ _greetSerObj.developerName }}</h2>
+    <h2> Team Size : {{ _greetSerObj.teamStrength }}</h2>
+
+
+    <span>
+        <button (click) ="_greetSerObj.increaseCounter()">Increase </button>
+        <button (click)="_greetSerObj.decreaseCounter()"> Decrease </button>
+        <h1> {{ _greetSerObj.counter }} </h1>
+    </span>
+</div>

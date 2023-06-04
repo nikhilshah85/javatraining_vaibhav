@@ -1,0 +1,14 @@
+
+
+<div>
+    <h1> I am component 3</h1>
+    <h2> Message :    {{ _greetSerObj.greetUserMessage() }} </h2>
+    <h2> Developer :  {{ _greetSerObj.developerName }}</h2>
+    <h2> Team Size : {{ _greetSerObj.teamStrength }}</h2>
+
+    <span>
+        <button (click)="_greetSerObj.increaseCounter()"> + </button>
+        <button (click)="_greetSerObj.decreaseCounter()"> - </button>
+        <h1> {{ _greetSerObj.counter }} </h1>
+    </span>
+</div>

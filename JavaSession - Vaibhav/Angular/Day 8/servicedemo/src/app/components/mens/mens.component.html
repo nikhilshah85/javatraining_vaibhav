@@ -1,0 +1,16 @@
+
+
+<h1> Mens Products </h1>
+
+<!-- {{ _productsSerObj.maleProducts() }} -->
+
+<table border="1">
+    <tr *ngFor="let p of _productsSerObj.mensProductList">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName }} </td>
+        <td> {{ p.pPrice }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> <button> Add To Card </button> </td>
+
+    </tr>
+</table>

@@ -1,0 +1,21 @@
+Task :
+
+		use the same service make a call to users
+		https://jsonplaceholder.typicode.com/users
+
+	we wish to display data in Div tags
+
+		Name 
+		userName
+		Email
+		City
+		Geo : lat lon
+		CompanyName :
+		CatchPhase
+	display the data in lables / boxes as per mspaint images
+------------------------------------------------------
+in the same application add a compoent - find product - give a textbox to user - user will enter 
+		product number and press a tab, which will display the product in a box below the textbox
+
+	
+https://fakestoreapi.com/products/2
