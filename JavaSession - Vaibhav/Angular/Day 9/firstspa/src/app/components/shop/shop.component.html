@@ -1,0 +1,19 @@
+
+
+
+<h1> Welcome to Shopping </h1>
+
+<table class="table table-bordered">
+    <tr>
+        <td><a routerLink="male"> Male </a> </td>
+        <td><a routerLink="female"> Female </a> </td>
+        <td><a routerLink="kids"> Kids </a> </td>
+        <td><a routerLink="electronics"> Electronics </a> </td>
+        <td><a [routerLink]="['shop/productdetail,1']"></a></td>
+       <!-- <td> <a [routerLink]="[shop/productdetail/,1]"> Product</a></td> -->
+    </tr> 
+</table>
+
+<div>
+<router-outlet></router-outlet>
+</div>

@@ -1,0 +1,29 @@
+
+
+
+<h1> Details for Product Id : {{ product }} </h1>
+
+<div>
+
+    <table class="table">
+            <tr>
+                <td> Product Id </td>
+                <td> Product Name </td>
+                <td> Product Price </td>
+                <td> Product Available Qty </td>
+            </tr>
+            <tr>
+                <td> {{ productDetail.Pid }} </td>                
+                <td>{{ productDetail.Pname }} </td>                
+                <td> {{ productDetail.Pprice }} </td>                
+                <td> {{ productDetail.PavailableQty }} </td>         
+                <td colspan="2" rowspan="4">  <img width="200px" height="200px" src="{{ productDetail.pimg }}"/> </td>
+                  
+            </tr>
+          
+               
+    </table>
+   
+
+
+</div>

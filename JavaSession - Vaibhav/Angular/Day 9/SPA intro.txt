@@ -1,0 +1,14 @@
+					SPA - Single paged Application
+
+
+	1. in a traditional web site, user has to make multiple round-trips to server to load a page
+	2. user cannot browse website in an offline mode
+	3. Sort and filter from the data which is already loaded
+	4. Add, delete, update data when offline - like whatapp - telegram 
+	5. Website should work like an app on browser
+		This is a need for every application today to provide this feature to users
+
+
+			Single paged applicaition
+		Configure all the pages(component) in a single page(app) --> index.html
+

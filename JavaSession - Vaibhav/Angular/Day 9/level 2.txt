@@ -1,0 +1,17 @@
+1. Stop the server - close the browser
+2. Add below Components
+	Shop
+	inside shop folder, create 4 more components
+		Male
+		Female
+		Kids
+		Electronics
+
+		in their .ts create a json array variable with 3 products each
+			pid, PName, Price, pAvailable Qty
+
+			write HTML to display the products in a table
+
+3. We will use above example to learn 
+	Nested routing
+	parameterised routing

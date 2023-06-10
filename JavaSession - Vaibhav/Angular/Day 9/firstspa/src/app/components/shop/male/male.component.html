@@ -1,0 +1,50 @@
+<h1>Male shop</h1>
+
+
+
+
+<div>
+
+
+
+
+
+<table border = "1">
+
+    <thead>
+
+        <tr>
+
+            <th>PID</th>
+
+            <th>Name</th>
+
+            <th>Price</th>
+
+            <th>Availability</th>
+
+        </tr>
+
+    </thead>
+
+    <tr *ngFor="let p of objectList">
+
+        <td><a [routerLink]="['shop/productdetail/',p.Pid]"> {{ p.Pid }} </a></td>
+
+        <td>{{p.Pname}}</td>
+
+        <td>{{p.Pprice}}</td>
+
+        <td>{{p.PavailableQty}}</td>
+
+    </tr>
+
+
+
+
+</table>
+
+
+
+
+</div>
