@@ -1,0 +1,24 @@
+Create an Project on Angular : ShoppingAPP
+
+
+It should be a SPA app
+
+We need - ver good welcome page - home 5sgt21	`
+				- ProductList (display 5 products a in table)
+					pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount
+					display the productName in capital always
+					display offer price (pPrice - pDiscount) - CustomPipe
+
+					product will also have,
+						 pManufacturer, MDFR
+						 pDescription, 
+						 pCopyRights, 
+						 pImage (5 image for every product)
+			pYouMayAlsoPrefer:[
+				{pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount}
+				{pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount},
+				pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount]
+
+	
+				- AddProduct (only admin login can add and view this page, here
+					give textboxes to add to product list)

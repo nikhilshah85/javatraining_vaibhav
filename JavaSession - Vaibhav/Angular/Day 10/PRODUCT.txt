@@ -1,0 +1,8 @@
+pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount, pManufacturer, 
+						 pDescription, 
+						 pCopyRights, 
+						 pImage (5 image for every product)
+			pYouMayAlsoPrefer:[
+				{pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount}
+				{pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount},
+				pId, pName, pCategory, pAvaialbleQty, pPrice, pDiscount]
