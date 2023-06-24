@@ -1,0 +1,17 @@
+
+
+
+
+docker terminilogy
+
+	image = code + runtime(JVM) + dependencies + configurations etc....packaged as 1 bundle
+
+		which can be easily deployed anywhere on any platform(windows/mac/linux/android)
+
+		use has to just pull and start useing it in a container 
+
+
+		end user = non technical ppl, wont be happy or comfortable to download the dependencies
+			eg. if I give an Java appliction to a person, which brought a new laptop / machine
+
+			how will they run the application, they need to download and install Java Runtim (JVM)

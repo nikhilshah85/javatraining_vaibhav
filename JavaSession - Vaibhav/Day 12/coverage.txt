@@ -1,0 +1,20 @@
+1. Get started with sql server database
+	create a new database, add a table with columns of differnt data types, add some records
+2. Create a spring boot web application with JDBC, JPA, SQL Server drivers 
+3. connect from springboot app to sql server, fire sql commands, like select *, insert, update and delete
+	test them
+4. add a controller to host it on a url (http://localhost:8080) - test (GET)all the data from table
+5. use postman to test, insert (POST), update (PUT) and delete(DELETE)
+6. configure CORS to make service available to Angular and other application
+
+
+
+bankinginstance.database.windows.net
+trainer
+Password@1234
+
+
+jdbc:sqlserver://;servername=server_name;encrypt=true;integratedSecurity=true;authenticationScheme=JavaKerberos
+
+
+jdbc:sqlserver://;servername=bankinginstance.database.windows.net;encrypt=true;userName=trainer;password=Password@1234;authenticationScheme=JavaKerberos
