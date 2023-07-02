@@ -1,0 +1,33 @@
+package springsql.employee.springsqlemployee;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import springsqlemployee.Models.employeeDetails;
+
+@SpringBootApplication
+public class SpringsqlemployeeApplication implements CommandLineRunner{
+
+	@Autowired
+	private JdbcTemplate jdbctemp;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(SpringsqlemployeeApplication.class, args);
+	}
+
+//	@Override
+//	public void run(String... args) throws Exception {
+//		String sqlquery = "select * from employeeDetails";
+//	 List<employeeDetails> eList = 	jdbctemp.query(sqlquery,BeanPropertyRowMapper.newInstance(employeeDetails.class));
+//	 
+//	 eList.forEach(System.out :: println);
+//		
+//	}
+
+}

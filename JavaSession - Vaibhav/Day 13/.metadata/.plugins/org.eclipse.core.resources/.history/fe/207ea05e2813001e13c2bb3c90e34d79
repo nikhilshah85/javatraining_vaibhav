@@ -1,0 +1,5 @@
+package springsqlemployee.Models;
+
+public class employeeDetails {
+
+}

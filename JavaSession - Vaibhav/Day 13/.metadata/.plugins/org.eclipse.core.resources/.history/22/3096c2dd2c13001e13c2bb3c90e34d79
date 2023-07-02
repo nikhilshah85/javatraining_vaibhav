@@ -1,0 +1,2 @@
+spring.datasource.url = jdbc:sqlserver://vaibhav-java-training.database.windows.net:1433;database=employeeManagement;user=vaibhav@vaibhav-java-training;password=Password@1234;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+server.port = 8181

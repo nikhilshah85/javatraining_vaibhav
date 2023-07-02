@@ -1,0 +1,16 @@
+<p>productlist works!</p>
+
+
+<button (click)="_externalData.getAllProducts()"> Show Products </button>
+
+<table border="1">
+    <tr *ngFor="let p of  _externalData.allProducts">
+        <td> {{ p.id }} </td>
+        <td> {{ p.title }} </td>
+        <td> {{ p.category }} </td>
+        <td> {{ p.description }} </td>
+        <td><img src=" {{ p.image }} "></td>
+        <td> {{ p.price }} </td>
+
+    </tr>
+</table>

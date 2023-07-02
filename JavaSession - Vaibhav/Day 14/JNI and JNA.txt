@@ -1,0 +1,14 @@
+JNI - Java Native Interface
+	implements interfaceName 
+
+	Many a times we need to access functionalities, classes, methods, properties, data, written in other frameworks
+		C++, .net, python, ruby etc....
+
+	set of libraries and interfaces
+		developed, maintained by open source community 
+	
+
+JNA - Java Native Access 
+	set of libraries and interfaces
+		developed, maintained by Java
+

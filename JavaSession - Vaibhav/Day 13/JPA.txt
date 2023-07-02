@@ -1,0 +1,17 @@
+1. Implete Add new Employee method = take parameters from the user
+2. Implatement Delete employee method
+3. Implement update employee method
+
+---
+Create an angular application - make a call to get all employees and display the data on a page in a employee component
+
+---------------
+	 JDBC is good and old - very useful
+
+
+Advanced part of application 
+
+	but, this days there is a new Design pattern - ORM - object relational mapping, on which all the database operations are performed
+
+		we have the ORM implementation for Repository pattern - in a driver called JPA - Java persistant Api 
+		to communicate with databases

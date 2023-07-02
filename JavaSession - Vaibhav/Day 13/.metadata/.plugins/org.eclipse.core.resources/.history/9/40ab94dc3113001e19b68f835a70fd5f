@@ -1,0 +1,26 @@
+package springsql.employee.springsqlemployee;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import springsqlemployee.Models.employeeDetails;
+
+@SpringBootApplication
+public class SpringsqlemployeeApplication{
+
+	@Autowired
+	private JdbcTemplate jdbctemp;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(SpringsqlemployeeApplication.class, args);
+	}
+
+
+
+}

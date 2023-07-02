@@ -1,0 +1,16 @@
+package springsqlemployee.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmployeeController {
+
+	
+	@GetMapping("/greetings")
+	public String Greet()
+	{
+		return "Hello and Welcome to Spring boot";
+	}
+	
+}

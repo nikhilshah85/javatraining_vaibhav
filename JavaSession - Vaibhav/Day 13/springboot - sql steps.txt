@@ -1,0 +1,70 @@
+1. Create a database - employeeManagementDB
+2. Create a table employeeDetails - empNo (PK), empName, empDesignation, empSalary, empIsPermenant
+	insert 5 records in the table
+	
+
+		create table employeeDetails 
+		(
+			empNo int primary key,
+			empName varchar(20),
+			empDesignation varchar(20),
+			empSalary int,
+			empIsPermenant bit
+		)
+
+		insert into employeeDetails values(101,'Vaibhav','Developer',12000,1)
+		insert into employeeDetails values(102,'Sumit','Accounts',12000,1)
+		insert into employeeDetails values(103,'Karan','Sales',12000,0)
+		insert into employeeDetails values(104,'Mohan','HR',12000,1)
+		insert into employeeDetails values(105,'Rohan','Sales',12000,0)
+
+3. Create a new java spring boot app - add below dependencies
+		a. spring web
+		b. JDBC
+		c. MS Server
+		d. JPA
+	
+	import the project in eclipse
+
+4. set up - connection url in project configuration application.properties in src\main\resources folder
+spring.datasource.url = jdbc:sqlserver://vaibhav-java-training.database.windows.net:1433;database=employeeManagement;user=vaibhav@vaibhav-java-	training;password=Password@1234;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
+5. Add a new package - springsqlemployee.Models
+
+6. Add a new class in this package - employeeDetails
+		add 5 variables as per the table design
+
+
+7. Generate Getter and Setter properties for all of them
+
+8. Add a ToStringMethod for the properies
+
+9. in the application file, test select command
+	a. implement CommandLineRunner on the class 
+		public class SpringsqlemployeeApplication implements CommandLineRunner
+	b. implement the method run and mention your code in the method
+10. create a private variable JdbcTemplate 
+	private JdbcTemplate jdbc; //this is the one which has execute query method
+
+11. 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

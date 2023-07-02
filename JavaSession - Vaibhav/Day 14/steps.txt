@@ -1,0 +1,81 @@
+1. Create a database shoppingAPP
+2. Add below tables
+	productList
+	customerList
+
+	productList (pId primary key,pName, pCategory, pPrice, pIsInStock bit)
+	customerList (cId primary key,cName, cCity, cWalletBalance, cIsActive bit)
+
+	add some sample records - 5 records on each table
+
+3. Create a new SpringBoot rest api application from spring initilizer
+	add, rest(web), jpa, jdbc, sql server
+
+4. create the below Packages
+	shoppingfullstack.Model
+	shoppingfullstack.controller 
+	shoppingfullstack.repository
+
+5. in the Model package - add a new Class file (technical name is entity when you use JPA - JPA in Java is based on Design pattern called - ORM )
+			ORM - Object relational mapping
+			Appliction will have a mapping to tables and their columns in databases
+
+		add 2 entiities
+			productlist (add 5 variables, create proprties for all of them)
+			customerList (add 5 variables, create properties for all of them)
+
+
+		decorate the class with @Entity
+					@Table("name of table in database")
+		decorate variables with @Column("name of column in above table") - do this for all the variables, in both the class files
+
+		overight String method in both the classes
+
+		
+
+
+		@Entity
+		@Table(name="productList")
+		public class ProductLIst
+		{
+			@Column(name="pId");
+			private int pId;
+			@Column(name = "pName");
+			private String pName;
+
+		}
+
+6. In the repository package, add an interface
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

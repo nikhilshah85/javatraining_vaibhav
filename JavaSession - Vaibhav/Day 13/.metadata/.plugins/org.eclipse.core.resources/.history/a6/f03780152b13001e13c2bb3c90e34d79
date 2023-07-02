@@ -1,0 +1,47 @@
+package springsqlemployee.Models;
+
+public class employeeDetails {
+
+	private int empNo;
+	private String empName;
+	private String empDesignation;
+	private int empSalary;
+	private Boolean empIsPermanent;
+	public int getEmpNo() {
+		return empNo;
+	}
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	public String getEmpDesigantion() {
+		return empDesigantion;
+	}
+	public void setEmpDesigantion(String empDesigantion) {
+		this.empDesigantion = empDesigantion;
+	}
+	public int getEmpSalary() {
+		return empSalary;
+	}
+	public void setEmpSalary(int empSalary) {
+		this.empSalary = empSalary;
+	}
+	public Boolean getEmpIsPermenant() {
+		return empIsPermenant;
+	}
+	public void setEmpIsPermenant(Boolean empIsPermenant) {
+		this.empIsPermenant = empIsPermenant;
+	}
+	@Override
+	public String toString() {
+		return "employeeDetails [empNo=" + empNo + ", empName=" + empName + ", empDesigantion=" + empDesigantion
+				+ ", empSalary=" + empSalary + ", empIsPermenant=" + empIsPermenant + "]";
+	}
+	
+	
+}

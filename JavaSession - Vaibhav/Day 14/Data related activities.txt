@@ -1,0 +1,19 @@
+1. Hard coded data - can perform CRUD on this data  - once you restart the server all the data is gone
+	use data structures for ease 
+2. Use XML Files, JSON file, excel files, CSV files for the same
+	performance 
+	files cannot store huge amount of data
+	files are slow in filter, sort, updates etc...you do not SQL support here
+3. Database - this is the end solution
+	SQL Server Express - free - upto 5 GB of data
+		after a year when 5GB is not enough, you want more data
+		Thus a higher version will need a licence (COST)
+	Oracle is offerering licence at a very low cost - lets go with this
+
+
+	later switch to mongoDB (30x faster than RDBMS) - Made and designed for JSON - use for REST API 
+	use MongoDB to support more clients, better performance
+
+4. We also want a database to be in Memory - perform CRUD operations in memory whole day and update the database end of the day, end of the user session etc... as per our need
+
+	All of this can be resolved 

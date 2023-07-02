@@ -1,0 +1,13 @@
+package springsqlemployee.Models;
+
+public class employeeDetails {
+
+	private int empNo;
+	private String empName;
+	private String empDesignation;
+	private int empSalary;
+	private Boolean empIsPermanent;
+	
+	
+	
+}
